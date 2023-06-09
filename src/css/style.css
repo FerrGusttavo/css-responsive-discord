@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap');
+
+* {
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 1,5rem;
+  color: #23272A;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  color: #23272A;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+
+}
+
+footer {
+  width: 100%;
+  height: 134px;
+  background-color: #23272A;
+}
+
+.banner {
+  max-width: 100%;
+  background-image: url(../assets/small-header-background.png);
+  background-size: cover;
+}
+
+.header-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 24px;
+  gap: 24px;
+}
+
+
+.header-content h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.header-content p {
+  color: #FFFFFF;
+}
+
+.header-content .buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.buttons button {
+  width: 100%;
+  height: 54px;
+  border-radius: 28px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button-black {
+  color: #FFFFFF;
+  background-color: #23272A;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 24px;
+  gap: 27px;
+}
+
+#background-gray {
+  background-color: #F6F6F6;
+}
+
+#end-section {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.footer-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container img {
+  width: 162px;
+  cursor: pointer;
+}
+
